@@ -1,0 +1,125 @@
+/*.container {
+	display: inline;
+}*/
+
+.horizontal-container > * {
+	margin-left: 40px;
+	padding: 10 5 10 5;
+}
+
+.center-container > * {
+	
+	display: inline-block;
+	
+	text-align: center;
+	vertical-align: top;
+	padding: 21px;
+
+	 
+	}
+
+.vertically-spaced {
+
+	line-height: 300px;
+
+}
+
+
+
+.vertically-spaced > * {
+
+vertical-align: middle;
+
+}
+/*.block-vertical {
+	
+	line-height: 300px;
+
+}*/
+
+.block-vertical-inner {
+
+	vertical-align: middle;
+}
+
+
+
+.list > * {
+
+	display: inline;
+}
+
+.button {
+
+	background-color: #ff9191;
+	border-radius: 7px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+
+
+	
+
+}
+
+.button.big {
+
+	height: 50px;
+	width: 200px;
+	font-size:  xx-large;
+	padding-top: 10px;
+
+}
+
+.button.mid {
+
+	height: 30px;
+	width: 100px;
+	font-size: large;
+	padding-top: 4px;
+}
+
+.button.sml {
+
+	height: 25px;
+	width: 50px;
+	padding-top: 2px;
+
+}
+
+/*.nav  > * {
+	
+}*/
+
+.inner-box {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 700px;
+	overflow: auto;
+	background-color: #ff9191;
+	border-radius: 7px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	 
+}
+
+.inner-box > * {
+	
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 25px;
+	float: left;
+	text-align: center;
+}
+
+
+
+
+
+
